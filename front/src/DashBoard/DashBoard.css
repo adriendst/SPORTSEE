@@ -1,0 +1,71 @@
+.dashBoard {
+    height: 100%;
+    width: calc(100% - 110px);
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.header {
+    height: 20%;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+
+.title span {
+    color: red;
+}
+
+.dashboardSections {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.graphics {
+    grid-column: 1/4;
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-gap: 20px;
+}
+
+.graphics > div {
+    border-radius: 10px;
+}
+
+.graphics > div:nth-child(1) {
+    grid-column: 1/4;
+    grid-row: 1/9;
+    background-color: #fbfbfb;
+}
+
+.graphics > div:nth-child(2) {
+    background-color: #ff0000;
+    grid-column: 1;
+    grid-row: 9/16;
+}
+
+.graphics > div:nth-child(3) {
+    background-color: #282d30;
+    grid-column: 2;
+    grid-row: 9/16;
+}
+
+.graphics > div:nth-child(4) {
+    position: relative;
+    background-color: #fbfbfb;
+    grid-column: 3;
+    grid-row: 9/16;
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 30px;
+}

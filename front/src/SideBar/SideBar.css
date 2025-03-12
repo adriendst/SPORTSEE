@@ -1,0 +1,35 @@
+.sideBar {
+    height: 100%;
+    width: 110px;
+    background-color: rgba(2, 2, 3, 1);
+    position: relative;
+}
+
+.sideNav {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sideBarButton {
+    height: 64px;
+    width: 64px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mention {
+    font-size: 12px;
+    transform: translateX(-50%) rotate(-90deg);
+    bottom: 100px;
+    left: 50%;
+    color: white;
+    width: max-content;
+    position: absolute;
+}

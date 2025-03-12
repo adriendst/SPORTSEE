@@ -1,0 +1,25 @@
+.recharts-responsive-container .recharts-surface{
+    border-radius: 10px;
+}
+
+.lineChart > .recharts-surface{
+    border-radius: 10px;
+}
+
+.lineChart .recharts-xAxis * {
+    color: white;
+}
+
+.lineChart{
+    position: relative
+}
+
+.lineChart > h3{
+    position: absolute;
+    font-size: 15px;
+    color : white;
+    font-weight: 500;
+    width: 150px;
+    margin :10% 0 0 10%;
+    line-height: 24px;
+}

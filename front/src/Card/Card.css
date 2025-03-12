@@ -1,0 +1,42 @@
+.card {
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    border-radius: 10px;
+}
+
+.cardContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 10%;
+}
+
+.cardData {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/4;
+    justify-content: space-evenly;
+}
+
+.cardUnit {
+    color: rgba(116, 121, 140, 1);
+    font-weight: bold;
+}
+
+.cardIcon {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    border-radius: 6px;
+}
+
+.cardNumber {
+    font-size: 20px;
+    font-weight: bold;
+}
